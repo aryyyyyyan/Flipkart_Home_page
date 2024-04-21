@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+body{
+    background-color: #e2e7e6;
+}
+
+.navbar{
+    height: 70px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+
+/* box-1 */
+
+.nav_logo{
+    height: 97%;
+    width: 160px;
+    background-image: url("flipkart_logo.png");
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+/* box-2 */
+
+.nav_search{
+    height: 45px;
+    width: 750px;
+    display: flex;
+}
+
+.nav_search_icon{
+    height: 100%;
+    width: 43px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #ecf0f5;
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+}
+
+.search_bar{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: #ecf0f5;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+
+/* box-4 */
+
+.nav_login{
+    height: 41px;
+    width: 123px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav_login:hover{
+    background-color: blue;
+}
+
+/* box-5 */
+
+.nav_cart{
+    height: 24px;
+    width: 44px;
+    display: flex;
+}
+
+/* panel */
+
+.panel{
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.panel_img1{
+    height: 85px;
+    width: 90px;
+    background-image: url("nav2_img1.png");
+    background-size: cover;
+}
+
+.panel_img2{
+    height: 85px;
+    width: 90px;
+    background-image: url("nav2_img2.png");
+    background-size: cover;
+}
+
+.panel_img3{
+    height: 85px;
+    width: 90px;
+    background-image: url("nav2_img3.png");
+    background-size: cover;
+}
+
+.panel_img4{
+    height: 85px;
+    width: 90px;
+    background-image: url("nav2_img4.png");
+    background-size: cover;
+}
+
+/* hero_section */
+
+.hero_section{
+    height: 200px;
+    margin-top: 20px;
+    background-color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.hero_img{
+    height: 100%;
+    width: 100%;
+    background-image: url("Hero_img.png");
+    background-size: cover;
+}
+
+/* mobile_shop_section */
+
+.mobile_shop_section{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.mobile_shop_section_text{
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 20px;
+    display: flex;
+}
+
+.mobile_shop_section_right_arrow{
+    margin-left: 1100px;
+
+}
+
+.mobile_section{
+    height: 236px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mobile_parent{
+    height: 224px;
+    width: 172px;
+    border: 0.5px solid gray;
+}
+
+.mobile_img1{
+    height: 160px;
+    width: 160px;
+    background-image: url("Mobile_img1.png");
+    background-size: cover;
+}
+
+.mobile1_text1{
+    font-size: 0.75rem;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.mobile1_text2{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.mobile_img2{
+    height: 160px;
+    width: 100px;
+    margin-left: 45px;
+    margin-top: 10px;
+    background-image: url("Mobile_img2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.mobile2_text1{
+    font-size: 0.75rem;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.mobile2_text2{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.mobile_img3{
+    height: 160px;
+    width: 160px;
+    background-image: url("Mobile_img3.png");
+    background-size: cover;
+}
+
+.mobile3_text1{
+    font-size: 0.75rem;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.mobile3_text2{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.mobile_img4{
+    height: 160px;
+    width: 160px;
+    background-image: url("Mobile_img4.png");
+    background-size: cover;
+}
+
+.mobile4_text1{
+    font-size: 0.75rem;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.mobile4_text2{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.mobile_img5{
+    height: 160px;
+    width: 160px;
+    background-image: url("Mobile_img5.png");
+    background-size: cover;
+}
+
+.mobile5_text1{
+    font-size: 0.75rem;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.mobile5_text2{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.mobile_img6{
+    height: 160px;
+    width: 160px;
+    background-image: url("Mobile_img6.png");
+    background-size: cover;
+}
+
+.mobile6_text1{
+    font-size: 0.75rem;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.mobile6_text2{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+/* shop_offers_section */
+
+.shop_offers_section{
+    height: 285px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.offers_img1{
+    height: 100%;
+    width: 32.5%;
+    background-image: url("offers_img1.png");
+    background-size: cover;
+}
+
+.offers_img2{
+    height: 100%;
+    width: 32.5%;
+    background-image: url("offers_img2.png");
+    background-size: cover;
+}
+
+.offers_img3{
+    height: 100%;
+    width: 32.5%;
+    background-image: url("offers_img3.png");
+    background-size: cover;
+}
+
+/* text_details */
+
+.text_details{
+    margin-top: 50px;
+    background-color: #f5f5f5;
+}
+
+h4{
+    margin: 25px 40px 10px 10px;
+
+}
+
+pre{
+    color: gray;
+}
+
+/* footer_section */
+
+.footer_section{
+    height: 710px;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+}
+
+.foot_panel-1{
+    height: 135px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot_panel_heading{
+    color: #878787;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    margin-top: 10px;
+}
+
+.foot_panel-2{
+    height: 135px;
+    margin-top: 80px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h5{
+    color: blue;
+    display: inline;
+}
+
+.foot_panel-3{
+    height: 135px;
+    margin-top: 160px;
+    margin-left: 40%;
+    display: block;
+}
+
+.foot_panel3_icon{
+    height: fit-content;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot_panel-4{
+    height: 70px;
+    border-top: 1px solid #454d5e;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
